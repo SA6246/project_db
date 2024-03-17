@@ -18,7 +18,7 @@ In the context of this project, both a two tier and three tier architecture can 
 
 #### Possible approaches can be adopted for architecture:
   - **2-Tier Approach**: In this approach, students directly interact with the SQL sandbox environment within Google Colab using Python code. They write SQL commands directly in the Colab environment, which then interacts with the database and returns results.
-  - **3-Tier Approach**: This approach extends the functionality by incorporating a Flask-based website. The Colab notebook dynamically generates a Flask link, providing students with a web interface to interact with the SQL sandbox. Students can open the Flask page and input their SQL commands via a dialogue box. The server processes these commands and returns the query results. This approach does not require them to know python.
+  - **3-Tier Approach**: This approach extends the functionality by deploying a Flask template website. The Colab notebook dynamically generates a Flask link, providing students with a web interface to interact with the SQL sandbox. Students can open the Flask page and input their SQL commands via a dialogue box. The server processes these commands and returns the query results. This approach does not require them to know python.
 
 **Considerations**:
 - While the 3-tier approach provides a more user-friendly web interface for students, it introduces security concerns due to potential misuse of root-level access to the database.
