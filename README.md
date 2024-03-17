@@ -29,8 +29,6 @@ In the context of this project, both a two tier and three tier architecture can 
 
 The ER diagram depicts the structure of a shoe store database, showcasing entities such as customers, orders, shoes, variants, stock, categories, and their relationships. It illustrates how customers place orders, which consist of various shoe variants. Each shoe can have multiple variants, each with its stock availability. Additionally, shoes can belong to multiple categories for organizational purposes. This serves as a quick deployment example, focusing on the database's architecture rather than the actual interactions that occur on a commerce website.
 
-### Model
-
 ```mermaid
 erDiagram
     CUSTOMER ||--o{ ORDER : places
